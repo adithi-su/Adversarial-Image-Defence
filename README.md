@@ -4,7 +4,7 @@ Adversarial example using FGSM.ipynb : Implementing Fast Gradient Sign Method, o
 ```
 η=ϵ sign(∇ₓ J(θ,x,y)) 
 ```
-Defending Against Adversarial Attacks.ipynb : ((On-going)
+Defending Against Adversarial Attacks.ipynb : (On-going)
 <ul> <li> Method 1: To reduce the impact of the attack, training the model on a given dataset, generating a set of adversarial images, and then fine-tuning the model on the adversarial images </li>
   <li>Method 2: Generating mixed batches of both the original training images and adversarial images, followed by fine-tuning the neural network on these mixed batches
 </li> </ul>
