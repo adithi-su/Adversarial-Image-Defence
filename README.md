@@ -1,5 +1,5 @@
 # Adversarial-Image-Defence
-Adversarial examples are specialised inputs created with the purpose of confusing a neural network, resulting in the misclassification of a given input. These inputs are indistinguishable to the human eye, but cause the network to fail to identify the contents of the image. The fast gradient sign method attack is a white box attack whose goal is to ensure misclassification. A white box attack is where the attacker has complete access to the model being attacked. <br>
+Adversarial examples are specialised inputs created with the purpose of confusing a neural network, resulting in the misclassification of a given input. These inputs are indistinguishable to the human eye, but cause the network to fail to identify the contents of the image. The fast gradient sign method attack is a white box attack whose goal is to ensure misclassification. <br>
 Adversarial example using FGSM.ipynb : Implementing Fast Gradient Sign Method, or FGSM, for generating adversarial noise as explained in <a href="https://arxiv.org/abs/1412.6572">Explaining and Harnessing Adversarial Examples</a> -
 ```
 η=ϵ sign(∇ₓ J(θ,x,y)) 
